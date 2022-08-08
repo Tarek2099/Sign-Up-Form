@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    
+    <section id="reg_form">
+        <!-- User Input Form -->
+        <form id="form">
+            <h2 id="create_account">Create Account</h2>
+            <input type="text" placeholder="First Name" id="first_Name" />
+            <input type="text" placeholder="Last Name" id="last_Name" />
+            <input type="text" placeholder="Username" id="username" />
+            <input type="email" placeholder="Email" id="email" />
+            <input type="password" placeholder="Password" id="password" />
+            <input type="file" capture="user" accept="/image" id="image" />
+            <button type="submit" id="submit">Submit</button>
+        </form>   
+    </section>
+
+    <!-- Result Section -->
+    <section id="result_section">
+        <div id="imagediv">
+        </div>
+        <div id="result">     
+        </div>
+    </section>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

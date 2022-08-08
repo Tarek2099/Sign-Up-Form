@@ -1,0 +1,72 @@
+*{
+margin: 0;
+padding: 0;
+}
+body{
+
+}
+
+#reg_form{
+    margin: 0 auto;
+    text-align: center;
+}
+#form {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 5px;
+    background-color: ghostwhite;
+}
+#result_section{
+    margin: 0 auto;
+}
+#result_section, #result.h5{
+    font-size: 1.1rem !important;
+    font-weight: 700 !important;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: .2px;
+    width: 25%;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 10px;
+}
+#result.h2{
+    text-align: center;
+    font-weight: 700 !important;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: .2px;
+}
+
+
+input{
+margin-bottom: 10px;
+padding: 10px 10px;
+border: none;
+border-radius: 5px;
+outline: none;
+}
+button{
+    padding: 10px 10px;
+        border: none;
+        border-radius: 5px;
+        outline: none;
+        cursor: pointer;
+        color: black;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+
+}
+#create_account{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+#image{
+    border: none !important;
+    outline: none;
+    border-radius: 3px;
+}
